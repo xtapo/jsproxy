@@ -26,6 +26,41 @@
       margin: 1em;
     }
   </style>
+  
+<!-- Remove/replace following codes which are for ads and statistics until before "</head>" -->  
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8403RKRNN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y8403RKRNN');
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous">
+</script>  
+
+<script>
+(function() {
+    var el = document.createElement('script');
+    el.type = 'text/javascript';
+    el.charset = 'utf-8';
+    el.async = true;
+    var ref = document.getElementsByTagName('script')[0];
+    ref.parentNode.insertBefore(el, ref);
+    el.src = 'https://w.cnzz.com/c.php?id=1280438995&async=1';
+})();
+</script>  
+
+<!-- Remove/replace above codes -->  
+  
+  
+  
+  
+  
 </head>
 <body>
   <div class="box">
@@ -35,7 +70,7 @@
     <button id="btnGo">Go</button>
   </div>
   <div class="box">
-    <span>切换线路:</span>
+    <span>Switch Line:</span>
     <select id="selNode"></select>
   </div>
   <div class="box" id="list">
@@ -114,6 +149,10 @@
     }
 
     const SITE_LIST = [
+      ['51secblog', 'blog.51sec.org/'],
+      ['51secwww', 'www.51sec.org/'],
+      ['itprosec', 'itprosec.com/community/'],
+      ['navigation', 'nav.51sec.org'],
       ['google', ''],
       ['youtube', ''],
       ['twitter', 'twitter.com/google'],
