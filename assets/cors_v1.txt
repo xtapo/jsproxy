@@ -3,6 +3,8 @@
 
 # google
 ssl.google-analytics.com
+www.googletagmanager.com
+pagead2.googlesyndication.com
 
 # [public]
 cdn.jsdelivr.net
@@ -182,6 +184,8 @@ static.camshowhub-cdn.to
 
 xqimg.imedao.com
 xavatar.imedao.com
+
+w.cnzz.com
 
 # ???
 img-l3.xvideos-cdn.com
