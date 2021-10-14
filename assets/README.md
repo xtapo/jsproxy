@@ -1,1 +1,1 @@
-该目录的文件可通过 CDN 加速
+The files in this folder will be accelerated by CDN
