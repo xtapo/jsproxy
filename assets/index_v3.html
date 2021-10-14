@@ -26,26 +26,7 @@
       margin: 1em;
     }
   </style>
-  
-<!-- Remove/replace following codes which are for ads and statistics until before "</head>" -->  
-  
-<script>
-(function() {
-    var el = document.createElement('script');
-    el.type = 'text/javascript';
-    el.charset = 'utf-8';
-    el.async = true;
-    var ref = document.getElementsByTagName('script')[0];
-    ref.parentNode.insertBefore(el, ref);
-    el.src = 'https://w.cnzz.com/c.php?id=1280438995&async=1';
-})();
-</script>  
-
-<!-- Remove/replace above codes -->  
-  
-  
 </head>
-  
 <body>
   <div class="box">
     <input id="txtURL" type="text" value="www.google.com" autofocus>
@@ -53,15 +34,12 @@
   <div class="box">
     <button id="btnGo">Go</button>
   </div>
-
   <div class="box">
-    <span>Switch Lines:</span>
+    <span>切换线路:</span>
     <select id="selNode"></select>
   </div>
-
   <div class="box" id="list">
   </div>
-  
   <script>
     const PAGE_CONF_SET = 110
     const PAGE_CONF_GET = 111
@@ -136,10 +114,6 @@
     }
 
     const SITE_LIST = [
-      ['51secblog', 'blog.51sec.org/'],
-      ['51secwww', 'www.51sec.org/'],
-      ['itprosec', 'itprosec.com/community/'],
-      ['Navigation', 'nav.51sec.org'],
       ['google', ''],
       ['youtube', ''],
       ['twitter', 'twitter.com/google'],
