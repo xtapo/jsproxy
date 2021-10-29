@@ -9,7 +9,7 @@ The main purpose to create this repository is to customize the original html ind
 More detail: https://blog.51sec.org/2020/03/build-reverse-proxy-using-cloudflare.html
 
 
-Demo url:  https://proxy.itprosec.eu.org/
+Demo url:  https://proxy.itprosec.com/
 
 ![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_ZSnUeoqkrz.png)
 
